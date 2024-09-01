@@ -4,14 +4,13 @@ This is a Python-based desktop application inspired by the online app [The Most 
 
 ## Features
 
-- **Light Blue Modern UI**: A clean and aesthetically pleasing interface with a light blue color theme.
 - **Custom Timer**: A countdown timer that deletes all text if the user stops typing for more than 5 seconds.
 - **Interactive Controls**: "Start Writing" button to initiate the countdown and "Try Again" button for resetting the session after the text is deleted.
 - **Responsive Text Box**: A text widget where the user can type, styled with a modern font and color scheme.
 
 ## Preview
 
-![App Preview]()
+![App Preview](dangerous_writting_preview.png)
 
 ## Installation
 
@@ -54,10 +53,6 @@ The default timer interval is set to 5 seconds. You can adjust this by modifying
 \```python
 self.timer_interval = 5  # Change this value to set a different interval
 \```
-
-### Modifying the UI Theme
-
-The application uses a light blue color theme. You can customize colors and fonts by adjusting the relevant attributes in the code, such as `bg`, `fg`, and `font` in the Tkinter widgets.
 
 ## Contributing
 
